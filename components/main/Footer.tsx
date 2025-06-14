@@ -15,37 +15,37 @@ const Footer = () => {
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="cursive font-bold text-[16px]">Community</div>
+            <div className="cursive font-bold text-[20px] pb-2">Community</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaYoutube />
-              <span className="text-[15px] ml-[6px]">Youtube</span>
+              <a href="https://www.youtube.com/@ahmedhamdy4336"></a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">Github</span>
+              <a href="https://github.com/ahmedhamdy272"></a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxDiscordLogo />
-              <span className="text-[15px] ml-[6px]">Discord</span>
+              <a href="https://discord.com/"></a>
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="cursive font-bold text-[16px]">Social Media</div>
+            <div className="cursive font-bold text-[16px] pb-2">Social Media</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxInstagramLogo />
-              <span className="text-[15px] ml-[6px]">Instagram</span>
+              <a href="https://www.instagram.com/ah_med.ham_dy?igsh=MWE4cnZ4NzQwbnk2MQ=="></a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxTwitterLogo />
-              <span className="text-[15px] ml-[6px]">Twitter</span>
+              <a href="https://x.com/AhmedHa87740668?t=aCCFApMn8hnHGt7cR1gc-g&s=09"></a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxLinkedinLogo />
-              <span className="text-[15px] ml-[6px]">Linkedin</span>
+              <a href="www.linkedin.com/in/dev-ahmed-hamdi"></a>
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="cursive font-bold text-[16px]">About</div>
+            <div className="cursive font-bold text-[20px] pb-2">About</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">Become Sponsor</span>
             </p>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-[40px] text-[16px] text-center">
-          &copy; WebKoKa Dev 2025 Inc. All rights reserved
+          &copy; KoKa Dev 2025 Inc. All rights reserved
         </div>
       </div>
     </div>
