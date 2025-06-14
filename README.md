@@ -61,7 +61,7 @@ Press “Generate New Sample” to load randomized objects
 Use environment variables to toggle data sources
 
 📁 Project Structure
-bash
+```bash
 Copy
 Edit
 ├── public/           # static files (images, JSON, etc.)
@@ -80,7 +80,7 @@ Copy
 Edit
 NASA_API_KEY=your_api_key_here
 Then restart the dev server to apply.
-
+```
 🎨 Deployment
 To deploy on Vercel:
 
