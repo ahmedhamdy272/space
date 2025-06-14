@@ -29,7 +29,7 @@ e.g. "Interactive 3D visualization of orbital objects around Earth."
 
 ### Clone the repo
 ```bash
-git clone https://github.com/your‑username/space‑6r3a.git
+git clone https://github.com/space/space‑6r3a.git
 cd space‑6r3a
 Install Dependencies
 bash
@@ -46,7 +46,7 @@ npm run dev
 # or
 yarn dev
 Then open http://localhost:3000 in your browser.
-
+```
 🧩 Usage
 Launch the app via npm run dev
 
@@ -109,21 +109,10 @@ Make your changes & test
 Submit a Pull Request & mention the feature or fix
 
 📜 License
-MIT © Your Name
+MIT © Ahmed Hamdy
 
-Developed with ♥ by Your Name
+Developed with ♥ by Ahmed Hamdy
 
 pgsql
 Copy
 Edit
-
----
-
-### ✅ What You Should Do Next
-
-- **Replace** placeholders (like project description, tech stack, your name, license) with your actual details.  
-- **Add** any special instructions—tests, build scripts, CI/CD notes, etc.  
-- **Include** screenshots or demo gif URLs (if any) in the Usage section at the top by embedding images.
-
-Let me know if you want help customizing any section!
-::contentReference[oaicite:0]{index=0}
