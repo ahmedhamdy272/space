@@ -12,7 +12,8 @@ interface StarBackgroundProps {
 }
 
 const StarBackground = (props: StarBackgroundProps) => {
-  const ref = useRef<THREE.Points>(null); // ✅ Correct ref type for <Points />
+  const ref = useRef<THREE.Points>(null); // ✅ Fix is here
+
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
