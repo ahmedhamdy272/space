@@ -8,11 +8,11 @@ import * as random from "maath/random/dist/maath-random.esm";
 import * as THREE from "three";
 
 interface StarBackgroundProps {
-  [key: string]: unknown; // Allow passing any valid JSX props
+  [key: string]: unknown;
 }
 
 const StarBackground = (props: StarBackgroundProps) => {
-  const ref = useRef<THREE.Points>(null); // ✅ Correct type for <Points />
+  const ref = useRef<THREE.Points>(null); // ✅ Correct ref type for <Points />
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
